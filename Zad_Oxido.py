@@ -1,10 +1,6 @@
 import openai
 import re
 
-API_KEY="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"
-
-openai.api_key=API_KEY
-
 def file_r(file):
     with open(file,"r",encoding="utf-8") as file:
         return file.read()
@@ -55,6 +51,7 @@ def get_response(prompt):
     return response.choices[0].message['content'].strip()
 
 def OpenAiArticle():
+    openai.api_key=file_r("api_key.txt")
     prompts=[]
 
     #------CZĘŚĆ 1
