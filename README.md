@@ -1,4 +1,4 @@
-# OpenAI-Zadanie rekrutacyjne
+# OpenAI
 Opis działania:<br>
 Program spełnia warunki podane w zadaniu rekrutacyjnym. Wybrałem język python.
 Pierwsza część programu polega na pobraniu z pliku .txt zawartości artykułu a potem przekazanie tego do sztucznej inteligencji wraz z kompletnym promptem,
